@@ -28,7 +28,7 @@ def stats(bot,update):
 @run_async
 def start(bot,update):
     sendMessage("This is a bot which can mirror all your links to Google drive!\n"
-                "Type /help to get a list of available commands", bot, update)
+                "Type /help to get a list of available commands Created by Shubhankar Dhumal!", bot, update)
 
 
 @run_async
