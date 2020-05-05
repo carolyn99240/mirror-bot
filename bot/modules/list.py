@@ -16,7 +16,7 @@ def list_drive(bot,update):
     if msg:
         reply_message = sendMessage(msg, bot, update)
     else:
-        reply_message = sendMessage('No result found search in Team-Drive', bot, update)
+        reply_message = sendMessage('No result found', bot, update)
 
     threading.Thread(target=auto_delete_message, args=(bot, update.message, reply_message)).start()
 
